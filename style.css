@@ -61,6 +61,9 @@ input {
 	background: #fff;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 }
+.question--self{
+	border-top: 4px solid #db446f;
+}
 
 .question__author {
 	font-size: 12px;
