@@ -82,7 +82,28 @@ input {
 }
 
 /* Input area to add a new question */
+
+.ask-question { 
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	text-align: center;
+
 .ask-question {
   padding: 0.5rem 1rem;
   text-align: center;
+
 }
+.button--ask {
+	font-size: 14px;
+	font-weight: bold;
+	background-color:#db446f; /* Pink */
+	 border: none;
+	 color: #fff;
+	 padding: 15px 32px;
+	 text-align: center;
+	 text-decoration: none;
+	 display: inline-block;
+	 margin: 4px 2px;
+	 cursor: pointer;
+
+	}
