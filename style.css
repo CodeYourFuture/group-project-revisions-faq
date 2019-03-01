@@ -46,7 +46,11 @@ input {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
+.site-header .button {
+  border: ridge 2px wheat;
+  text-shadow: 0 0 2px;
 
+}
 .site-header__title {
   margin: 0;
   font-size: 18px;
@@ -85,4 +89,30 @@ input {
 }
 .question--self {
   border-top: 3px solid #db446f;
+
+
+.ask-question { 
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	text-align: center;
+
+.ask-question {
+  padding: 0.5rem 1rem;
+  text-align: center;
+
+
 }
+.button--ask {
+	font-size: 14px;
+	font-weight: bold;
+	background-color:#db446f; /* Pink */
+	 border: none;
+	 color: #fff;
+	 padding: 15px 32px;
+	 text-align: center;
+	 text-decoration: none;
+	 display: inline-block;
+	 margin: 4px 2px;
+	 cursor: pointer;
+
+	}
