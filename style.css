@@ -49,6 +49,7 @@ input {
 .site-header .button {
   border: ridge 2px wheat;
   text-shadow: 0 0 2px;
+
 }
 .site-header__title {
   margin: 0;
@@ -82,6 +83,13 @@ input {
 }
 
 /* Input area to add a new question */
+.ask-question {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.question--self {
+  border-top: 3px solid #db446f;
+
 
 .ask-question { 
 	font-weight: bold;
@@ -91,6 +99,7 @@ input {
 .ask-question {
   padding: 0.5rem 1rem;
   text-align: center;
+
 
 }
 .button--ask {
